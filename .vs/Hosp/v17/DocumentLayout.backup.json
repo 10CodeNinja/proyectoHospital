@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|c:\\users\\mmoreira\\desktop\\nueva carpeta\\hosp\\hosp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|solutionrelative:hosp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\appsettings.json",
+              "RelativeDocumentMoniker": "Hosp\\appsettings.json",
+              "ToolTip": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\appsettings.json",
+              "RelativeToolTip": "Hosp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-19T20:47:21.716Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

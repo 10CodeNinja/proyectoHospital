@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|c:\\users\\mmoreira\\desktop\\nueva carpeta\\hosp\\hosp\\services\\pacienteservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|solutionrelative:hosp\\services\\pacienteservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|c:\\users\\mmoreira\\desktop\\nueva carpeta\\hosp\\hosp\\services\\medicoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|solutionrelative:hosp\\services\\medicoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|c:\\users\\mmoreira\\desktop\\nueva carpeta\\hosp\\hosp\\repositorio\\pacienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|solutionrelative:hosp\\repositorio\\pacienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|c:\\users\\mmoreira\\desktop\\nueva carpeta\\hosp\\hosp\\controllers\\dto\\pacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|solutionrelative:hosp\\controllers\\dto\\pacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|c:\\users\\mmoreira\\desktop\\nueva carpeta\\hosp\\hosp\\models\\hospitalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|solutionrelative:hosp\\models\\hospitalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|c:\\users\\mmoreira\\desktop\\nueva carpeta\\hosp\\hosp\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|solutionrelative:hosp\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|c:\\users\\mmoreira\\desktop\\nueva carpeta\\hosp\\hosp\\repositorio\\medicorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|solutionrelative:hosp\\repositorio\\medicorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|c:\\users\\mmoreira\\desktop\\nueva carpeta\\hosp\\hosp\\controllers\\dto\\medicodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|solutionrelative:hosp\\controllers\\dto\\medicodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|c:\\users\\mmoreira\\desktop\\nueva carpeta\\hosp\\hosp\\controllers\\medicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|solutionrelative:hosp\\controllers\\medicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|c:\\users\\mmoreira\\desktop\\nueva carpeta\\hosp\\hosp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A1F5D50-AA49-4754-AC9C-594E3949559E}|Hosp\\Hosp.csproj|solutionrelative:hosp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacienteDto.cs",
+              "DocumentMoniker": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Controllers\\dto\\PacienteDto.cs",
+              "RelativeDocumentMoniker": "Hosp\\Controllers\\dto\\PacienteDto.cs",
+              "ToolTip": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Controllers\\dto\\PacienteDto.cs",
+              "RelativeToolTip": "Hosp\\Controllers\\dto\\PacienteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T21:28:25.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedicoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Repositorio\\MedicoRepositorio.cs",
+              "RelativeDocumentMoniker": "Hosp\\Repositorio\\MedicoRepositorio.cs",
+              "ToolTip": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Repositorio\\MedicoRepositorio.cs",
+              "RelativeToolTip": "Hosp\\Repositorio\\MedicoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T21:03:04.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PacienteServicio.cs",
+              "DocumentMoniker": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Services\\PacienteServicio.cs",
+              "RelativeDocumentMoniker": "Hosp\\Services\\PacienteServicio.cs",
+              "ToolTip": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Services\\PacienteServicio.cs",
+              "RelativeToolTip": "Hosp\\Services\\PacienteServicio.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T21:00:23.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MedicoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Services\\MedicoServicio.cs",
+              "RelativeDocumentMoniker": "Hosp\\Services\\MedicoServicio.cs",
+              "ToolTip": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Services\\MedicoServicio.cs",
+              "RelativeToolTip": "Hosp\\Services\\MedicoServicio.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T21:00:07.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HospitalContext.cs",
+              "DocumentMoniker": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Models\\HospitalContext.cs",
+              "RelativeDocumentMoniker": "Hosp\\Models\\HospitalContext.cs",
+              "ToolTip": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Models\\HospitalContext.cs",
+              "RelativeToolTip": "Hosp\\Models\\HospitalContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T20:53:40.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PacienteController.cs",
+              "DocumentMoniker": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Controllers\\PacienteController.cs",
+              "RelativeDocumentMoniker": "Hosp\\Controllers\\PacienteController.cs",
+              "ToolTip": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Controllers\\PacienteController.cs",
+              "RelativeToolTip": "Hosp\\Controllers\\PacienteController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T20:55:08.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PacienteRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Repositorio\\PacienteRepositorio.cs",
+              "RelativeDocumentMoniker": "Hosp\\Repositorio\\PacienteRepositorio.cs",
+              "ToolTip": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Repositorio\\PacienteRepositorio.cs",
+              "RelativeToolTip": "Hosp\\Repositorio\\PacienteRepositorio.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T21:03:14.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MedicoDto.cs",
+              "DocumentMoniker": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Controllers\\dto\\MedicoDto.cs",
+              "RelativeDocumentMoniker": "Hosp\\Controllers\\dto\\MedicoDto.cs",
+              "ToolTip": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Controllers\\dto\\MedicoDto.cs",
+              "RelativeToolTip": "Hosp\\Controllers\\dto\\MedicoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T21:28:14.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MedicoController.cs",
+              "DocumentMoniker": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Controllers\\MedicoController.cs",
+              "RelativeDocumentMoniker": "Hosp\\Controllers\\MedicoController.cs",
+              "ToolTip": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\Controllers\\MedicoController.cs",
+              "RelativeToolTip": "Hosp\\Controllers\\MedicoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T20:54:56.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\appsettings.json",
+              "RelativeDocumentMoniker": "Hosp\\appsettings.json",
+              "ToolTip": "C:\\Users\\mmoreira\\Desktop\\Nueva carpeta\\Hosp\\Hosp\\appsettings.json",
+              "RelativeToolTip": "Hosp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-19T20:47:21.716Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
