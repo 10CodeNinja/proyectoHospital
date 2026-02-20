@@ -1,4 +1,4 @@
-C:\Users\mmoreira>docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=TuPasswordSegura123!" -p 1435:1433 --name sqlserver-hosp -v sqlserver_data:/var/opt/mssql -d mcr.microsoft.com/mssql/server:2022-latest
+C:\Users\mmoreira>docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=TuPasswordSegura123!" -p 1433:1433 --name sqlserver-hosp -v sqlserver_data:/var/opt/mssql -d mcr.microsoft.com/mssql/server:2022-latest
 ee61ed1e93c72a347cd0e7a5408048b5a86597a26cfadca818a66359e0c2f684
 
 
