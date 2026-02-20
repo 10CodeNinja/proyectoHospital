@@ -8,6 +8,7 @@ C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Hosp.dll
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Hosp.pdb
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\CsvHelper.dll
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Humanizer.dll
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Microsoft.Build.Locator.dll
@@ -45,6 +46,7 @@ C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Microsoft.Ope
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

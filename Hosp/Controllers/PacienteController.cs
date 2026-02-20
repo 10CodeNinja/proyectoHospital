@@ -2,11 +2,12 @@
 using Hosp.Models;
 using Hosp.Services;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace Hosp.Controllers
 {
     [ApiController]
-    [Route("/paciente")]
+    [Route("paciente")]
     public class PacienteController :ControllerBase
     {
         private readonly PacienteServicio _paciente;
@@ -16,7 +17,7 @@ namespace Hosp.Controllers
             _paciente = paciente;
         }
 
-        [HttpPost("{id}")]
+        [HttpPost("crear/{id}")]
         public IActionResult CrearPaciente([FromBody]PacienteDto datos, int id)
         {
             Paciente paciente = _paciente.AgregarPaciente(datos, id);
@@ -36,6 +37,20 @@ namespace Hosp.Controllers
             catch (Exception ex)
             {
                 return NotFound(new { mensaje = ex.Message });
+            }
+        }
+
+        [HttpPost("importar-csv")]
+        public async Task<IActionResult> ImportarCsv([FromForm(Name = "archivo")] IFormFile archivo)
+        {
+            try
+            {
+                await _paciente.ImportarPacientesCsvAsync(archivo);
+                return Ok("Pacientes importados correctamente");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Error: {ex.Message}");
             }
         }
     }

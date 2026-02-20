@@ -64,5 +64,11 @@ namespace Hosp.Repositorio
                 NombreMedico = paciente.IdMedicoNavigation?.Nombre ?? "Sin médico asignado"
             };
         }
+
+        public async Task AgregarPacientesAsync(List<Paciente> pacientes)
+        {
+            _hospitalContext.Pacientes.AddRange(pacientes);
+            await _hospitalContext.SaveChangesAsync();
+        }
     }
 }

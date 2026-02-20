@@ -1,6 +1,8 @@
-﻿using Hosp.Controllers.dto;
+﻿using CsvHelper;
+using Hosp.Controllers.dto;
 using Hosp.Models;
 using Hosp.Repositorio;
+using System.Globalization;
 
 namespace Hosp.Services
 {
@@ -48,6 +50,28 @@ namespace Hosp.Services
                 throw new Exception("Paciente no encontrado");
 
             return pacienteDto;
+        }
+
+        public async Task ImportarPacientesCsvAsync(IFormFile archivo)
+        {
+            if (archivo == null || archivo.Length == 0)
+                throw new Exception("Archivo CSV vacío");
+
+            using var reader = new StreamReader(archivo.OpenReadStream());
+            using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
+
+            var pacientesCsv = csv.GetRecords<PacienteCsvModel>().ToList();
+
+           
+            var pacientes = pacientesCsv.Select(p => new Paciente
+            {
+                Nombre = p.Nombre,
+                Telefono = p.Telefono,
+                Correo = p.Correo,
+                IdMedico = p.IdMedico
+            }).ToList();
+
+            await pacienteRepositorio.AgregarPacientesAsync(pacientes);
         }
     }
 }
