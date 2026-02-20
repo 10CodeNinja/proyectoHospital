@@ -70,7 +70,7 @@ namespace Hosp.Services
 
             foreach (var p in pacientesCsv)
             {
-                // Verificar que el médico existe
+               
                 var medicoExiste = _medicoRepositorio.ObtenerPorId(p.IdMedico);
                 if (medicoExiste == null)
                     throw new MedicoNoEncontradoException(p.IdMedico);
@@ -91,7 +91,7 @@ namespace Hosp.Services
             }
             catch (DbUpdateException ex) when (ex.InnerException is SqlException sqlEx && sqlEx.Number == 2627)
             {
-                // Manejo de duplicados (violación UNIQUE KEY)
+                
                 throw new Exception("Error: Algunos correos electronicos ya existen en la base de datos.");
             }
         }
