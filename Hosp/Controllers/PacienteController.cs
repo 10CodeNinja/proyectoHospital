@@ -1,4 +1,5 @@
 ﻿using Hosp.Controllers.dto;
+using Hosp.Excepciones;
 using Hosp.Models;
 using Hosp.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -18,12 +19,22 @@ namespace Hosp.Controllers
         }
 
         [HttpPost("crear/{id}")]
-        public IActionResult CrearPaciente([FromBody]PacienteDto datos, int id)
+        public IActionResult CrearPaciente([FromBody] PacienteDto datos, int id)
         {
-            Paciente paciente = _paciente.AgregarPaciente(datos, id);
-            return Ok();
+            try
+            {
+                Paciente paciente = _paciente.AgregarPaciente(datos, id);
+                return Ok(paciente); 
+            }
+            catch (NotFoundException ex)
+            {
+                return NotFound(new { mensaje = ex.Message }); 
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { mensaje = ex.Message });
+            }
         }
-
 
 
         [HttpGet("{id}")]
@@ -41,7 +52,7 @@ namespace Hosp.Controllers
         }
 
         [HttpPost("importar-csv")]
-        public async Task<IActionResult> ImportarCsv([FromForm(Name = "archivo")] IFormFile archivo)
+        public async Task<IActionResult> ImportarCsv( IFormFile archivo)
         {
             try
             {

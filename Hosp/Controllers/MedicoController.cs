@@ -20,12 +20,22 @@ namespace Hosp.Controllers
         [HttpPost]
         public IActionResult CrearMedico(MedicoDto datos)
         {
-            Medico medico = _medicoServicio.AgregarMedico(datos);
-
-            return Ok(medico);
+            try
+            {
+                Medico medico = _medicoServicio.AgregarMedico(datos);
+                return Ok(medico);
+            }
+            catch (Hosp.Excepciones.NotFoundException ex)
+            {
+                return BadRequest(new { mensaje = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { mensaje = "Error interno del servidor", detalle = ex.Message });
+            }
         }
-        
-        
+
+
         [HttpDelete("{id}")]
         public IActionResult Eliminar(int id)
         {

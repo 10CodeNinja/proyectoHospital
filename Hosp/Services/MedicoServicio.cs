@@ -1,4 +1,5 @@
 ﻿using Hosp.Controllers.dto;
+using Hosp.Excepciones;
 using Hosp.Models;
 using Hosp.Repositorio;
 
@@ -17,20 +18,21 @@ namespace Hosp.Services
 
         public Medico AgregarMedico(MedicoDto datos)
         {
-            Medico nuevoMedico = new Medico();
-            nuevoMedico.Nombre = datos.nombre.ToLower();
-            nuevoMedico.Telefono = datos.telefono.ToLower();
-            nuevoMedico.Correo = datos.correo.ToLower();
-            nuevoMedico.Especialidad = datos.especialidad.ToLower();
-            nuevoMedico.FechanNacimiento = datos.fechaNacimiento;
+            Medico nuevoMedico = new Medico
+            {
+                Nombre = datos.nombre.ToLower(),
+                Telefono = datos.telefono.ToLower(),
+                Correo = datos.correo.ToLower(),
+                Especialidad = datos.especialidad.ToLower(),
+                FechanNacimiento = datos.fechaNacimiento
+            };
 
             int afectada = _medicoRepositorio.AgregarMedico(nuevoMedico);
 
-            if (afectada == 0) throw new Exception("No se ingreso");
+            if (afectada == 0)
+                throw new NotFoundException("No se ingreso el medico");
 
             return nuevoMedico;
-
-
         }
 
         public Medico ObtenerPorId(int id)
