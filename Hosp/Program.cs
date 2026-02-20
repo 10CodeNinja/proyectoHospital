@@ -8,10 +8,17 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllers();
-
-
 builder.Services.AddEndpointsApiExplorer();
 
+
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "Hosp API",
+        Version = "v1"
+    });
+});
 
 
 builder.Services.AddScoped<MedicoServicio>();
@@ -19,16 +26,26 @@ builder.Services.AddScoped<PacienteServicio>();
 builder.Services.AddScoped<MedicoRepositorio>();
 builder.Services.AddScoped<PacienteRepositorio>();
 
+
 builder.Services.AddDbContext<HospitalContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection")));
 
 var app = builder.Build();
 
 
-
-
 app.UseHttpsRedirection();
 app.UseAuthorization();
-app.MapControllers();
 
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger(); 
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Hosp API V1");
+        c.RoutePrefix = string.Empty; 
+    });
+}
+
+app.MapControllers();
 app.Run();

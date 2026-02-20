@@ -41,7 +41,7 @@ namespace Hosp.Controllers
         }
 
         [HttpPost("importar-csv")]
-        public async Task<IActionResult> ImportarCsv([FromForm(Name = "archivo")] IFormFile archivo)
+        public async Task<IActionResult> ImportarCsv( IFormFile archivo)
         {
             try
             {

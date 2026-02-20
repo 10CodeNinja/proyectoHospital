@@ -99,7 +99,7 @@
         }
       }
     },
-    "/paciente/{id}": {
+    "/paciente/crear/{id}": {
       "post": {
         "tags": [
           "Paciente"
@@ -139,7 +139,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/paciente/{id}": {
       "get": {
         "tags": [
           "Paciente"
@@ -171,15 +173,17 @@
           "content": {
             "multipart/form-data": {
               "schema": {
-                "required": [
-                  "archivo"
-                ],
                 "type": "object",
                 "properties": {
                   "archivo": {
                     "type": "string",
                     "format": "binary"
                   }
+                }
+              },
+              "encoding": {
+                "archivo": {
+                  "style": "form"
                 }
               }
             }
