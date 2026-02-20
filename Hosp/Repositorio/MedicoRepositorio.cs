@@ -53,6 +53,12 @@ namespace Hosp.Repositorio
             return afectada;
         }
 
+        public Medico ObtenerPorCorreo(string correo)
+        {
+            return _HospitalContext.Medicos
+        .FirstOrDefault(m => m.Correo.ToLower() == correo.ToLower());
+        }
+
         
 
 

@@ -70,5 +70,11 @@ namespace Hosp.Repositorio
             _hospitalContext.Pacientes.AddRange(pacientes);
             await _hospitalContext.SaveChangesAsync();
         }
+
+        public Paciente ObtenerPorCorreo(string correo)
+        {
+            return _hospitalContext.Pacientes
+                   .FirstOrDefault(m => m.Correo.ToLower() == correo.ToLower());
+        }
     }
 }

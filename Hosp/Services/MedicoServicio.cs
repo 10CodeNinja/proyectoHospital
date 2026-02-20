@@ -18,6 +18,16 @@ namespace Hosp.Services
 
         public Medico AgregarMedico(MedicoDto datos)
         {
+            
+            if (datos.fechaNacimiento > DateOnly.FromDateTime(DateTime.Today))
+                throw new NotFoundException("La fecha de nacimiento no puede ser futura");
+
+            
+            var medicoExistente = _medicoRepositorio.ObtenerPorCorreo(datos.correo);
+            if (medicoExistente != null)
+                throw new NotFoundException("Ya existe un medico con ese correo");
+
+            
             Medico nuevoMedico = new Medico
             {
                 Nombre = datos.nombre.ToLower(),

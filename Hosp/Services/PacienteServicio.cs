@@ -29,6 +29,11 @@ namespace Hosp.Services
                 throw new NotFoundException($"No se encontro el medico con id {id}");
 
 
+            var existe = _medicoRepositorio.ObtenerPorCorreo(datos.correo);
+
+            if (existe == null)
+                throw new Exception("el correo ya");
+
             Paciente nuevoPaciente = new Paciente
             {
                 Nombre = datos.nombre.ToLower(),
