@@ -1,4 +1,5 @@
-﻿using Hosp.Models;
+﻿using Hosp.Controllers.dto;
+using Hosp.Models;
 using Hosp.Services;
 
 namespace Hosp.Repositorio
@@ -43,6 +44,16 @@ namespace Hosp.Repositorio
 
             return afectada;
         }
+
+        public int eliminarMedico(Medico medico)
+        {
+            _HospitalContext.Medicos.Remove(medico);
+            int afectada = _HospitalContext.SaveChanges();
+
+            return afectada;
+        }
+
+        
 
 
     }

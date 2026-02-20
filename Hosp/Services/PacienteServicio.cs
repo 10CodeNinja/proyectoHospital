@@ -18,7 +18,7 @@ namespace Hosp.Services
 
         public Paciente AgregarPaciente(PacienteDto datos, int id)
         {
-            // buscar el medico
+          
             Medico medico = _medicoRepositorio.ObtenerPorId(id);
 
             if (medico == null) throw new Exception("No existe el medico con ese id");
@@ -28,6 +28,7 @@ namespace Hosp.Services
             nuevoPaciente.Telefono = datos.telefono.ToLower();
             nuevoPaciente.Correo = datos.correo.ToLower();
             nuevoPaciente.IdMedico = medico.Id;
+            nuevoPaciente.IdMedicoNavigation = medico;
 
             int afectada = pacienteRepositorio.AgregarPaciente(nuevoPaciente);
 
@@ -37,6 +38,16 @@ namespace Hosp.Services
 
 
 
+        }
+
+        public PacienteConMedicoDto ObtenerPacienteConMedico(int id)
+        {
+            var pacienteDto = pacienteRepositorio.ObtenerPacienteConMedico(id);
+
+            if (pacienteDto == null)
+                throw new Exception("Paciente no encontrado");
+
+            return pacienteDto;
         }
     }
 }

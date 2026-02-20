@@ -154,6 +154,7 @@ C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\obj\Debug\net8.0\Hosp.Assembly
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\obj\Debug\net8.0\Hosp.csproj.CoreCompileInputs.cache
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\obj\Debug\net8.0\Hosp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\obj\Debug\net8.0\Hosp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\obj\Debug\net8.0\Hosp.sourcelink.json
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\mmoreira\Desktop\Nueva carpeta\Hosp\Hosp\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

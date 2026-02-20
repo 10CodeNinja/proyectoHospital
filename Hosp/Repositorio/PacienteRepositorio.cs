@@ -1,5 +1,7 @@
-﻿using Hosp.Models;
+﻿using Hosp.Controllers.dto;
+using Hosp.Models;
 using Hosp.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace Hosp.Repositorio
 {
@@ -43,6 +45,24 @@ namespace Hosp.Repositorio
             _hospitalContext.Pacientes.Update(paciente);
             int afectada = _hospitalContext.SaveChanges();
             return afectada;
+        }
+
+        public PacienteConMedicoDto? ObtenerPacienteConMedico(int id)
+        {
+            var paciente = _hospitalContext.Pacientes
+                                           .Include(p => p.IdMedicoNavigation) 
+                                           .FirstOrDefault(p => p.Id == id);
+
+            if (paciente == null) return null;
+
+            
+            return new PacienteConMedicoDto
+            {
+                NombrePaciente = paciente.Nombre,
+                Telefono = paciente.Telefono,
+                Correo = paciente.Correo,
+                NombreMedico = paciente.IdMedicoNavigation?.Nombre ?? "Sin médico asignado"
+            };
         }
     }
 }

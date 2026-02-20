@@ -23,26 +23,20 @@ namespace Hosp.Controllers
             return Ok();
         }
 
-        [HttpGet]
-        public IActionResult ObtenerTodos()
+
+
+        [HttpGet("{id}")]
+        public IActionResult ObtenerPacienteConMedico(int id)
         {
-            return Ok();
-
-        }
-
-
-        [HttpDelete("{id}")]
-        public IActionResult Eliminar(int id)
-        {
-            return Ok();
-
-        }
-
-        [HttpPost("{id}")]
-        public IActionResult Actualizar([FromBody] PacienteDto datos, int id)
-        {
-            return Ok();
-
+            try
+            {
+                var paciente = _paciente.ObtenerPacienteConMedico(id);
+                return Ok(paciente);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(new { mensaje = ex.Message });
+            }
         }
     }
 }

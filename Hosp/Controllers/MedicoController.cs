@@ -1,4 +1,5 @@
 ﻿using Hosp.Controllers.dto;
+using Hosp.Models;
 using Hosp.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,26 +20,28 @@ namespace Hosp.Controllers
         [HttpPost]
         public IActionResult CrearMedico(MedicoDto datos)
         {
-            return Ok();
-        }
-        [HttpGet]
-        public IActionResult ObtenerTodo()
-        {
-            return Ok();
+            Medico medico = _medicoServicio.AgregarMedico(datos);
 
+            return Ok(medico);
         }
+        
         
         [HttpDelete("{id}")]
         public IActionResult Eliminar(int id)
         {
+            _medicoServicio.eliminar(id);
             return Ok();
 
         }
         [HttpPost("{id}")]
-        public IActionResult Actualizar([FromBody]MedicoDto datos,int id)
+        public IActionResult ActualizarMedico([FromBody]MedicoDto datos,int id)
         {
-            return Ok();
+           Medico medico =  _medicoServicio.Actualizar(datos, id);
+
+            return Ok(medico);
 
         }
+
+        
     }
 }
