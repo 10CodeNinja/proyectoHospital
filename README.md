@@ -23,3 +23,6 @@ idMedico int,
 fechaCreacion date default getDate(),
 constraint FK_paciente_medico foreign key (idMedico) references Medico (id)
 );
+
+
+no funciona en swagger, pero en postman funciona bien el lector de pacientes por medio de archivo csv
